@@ -1,5 +1,7 @@
 package com.luna.aiots;
 
+import com.luna.aiots.block.ModBlocks;
+import com.luna.aiots.item.moditems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +31,9 @@ public class Aiots
     public Aiots() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        moditems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

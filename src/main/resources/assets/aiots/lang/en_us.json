@@ -1,0 +1,9 @@
+{
+  "item.aiots.iridium_ingot": "Iridium Ingot",
+  "item.aiots.iridium_nugget": "Iridium Nugget",
+  "item.aiots.raw_iridium": "Raw Iridium",
+
+  "block.aiots.iridium_block": "Iridium Block",
+  "block.aiots.iridium_ore": "Iridium Ore",
+  "itemGroup.aiotsModTab": "Aiots"
+}
