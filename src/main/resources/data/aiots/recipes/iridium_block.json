@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "aiots:iridium_ingot"
+    }
+  },
+  "result": {
+    "item": "aiots:iridium_block"
+  }
+}
