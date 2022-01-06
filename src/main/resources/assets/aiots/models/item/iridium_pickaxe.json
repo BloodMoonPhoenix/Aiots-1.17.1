@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "aiots:item/iridium_pickaxe"
+  }
+}
