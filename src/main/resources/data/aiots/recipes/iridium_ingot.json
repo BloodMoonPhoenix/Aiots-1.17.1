@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "aiots:raw_iridium"
+  },
+  "result": "aiots:iridium_ingot",
+  "experience": 0.60,
+  "cookingtime": 200
+}

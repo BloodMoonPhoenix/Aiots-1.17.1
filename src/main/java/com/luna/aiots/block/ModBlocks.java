@@ -2,7 +2,7 @@ package com.luna.aiots.block;
 
 import com.luna.aiots.Aiots;
 import com.luna.aiots.item.ModCreativeModeTab;
-import com.luna.aiots.item.moditems;
+import com.luna.aiots.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -33,7 +33,7 @@ public class ModBlocks {
     }
 
     private static<T extends Block> void registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
-        moditems.ITEMS.register(name, () -> new BlockItem(block.get(),
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().tab(tab)));
     }
 
@@ -44,7 +44,7 @@ public class ModBlocks {
     }
 
     private static<T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
-        moditems.ITEMS.register(name, () -> new BlockItem(block.get(),
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().tab(ModCreativeModeTab.AIOTS_TAB)));
     }
 

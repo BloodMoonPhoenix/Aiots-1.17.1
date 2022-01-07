@@ -6,7 +6,6 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -14,7 +13,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements ArmorMaterial {
 
     IRIDIUM("iridium", 60, new int[]{3, 6, 8, 3}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.3F, () -> {
-        return Ingredient.of(moditems.IRIDIUM_INGOT.get());
+        return Ingredient.of(ModItems.IRIDIUM_INGOT.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

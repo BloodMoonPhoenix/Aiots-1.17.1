@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab AIOTS_TAB = new CreativeModeTab("aiotsModTab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(moditems.IRIDIUM_INGOT.get());
+            return new ItemStack(ModItems.IRIDIUM_INGOT.get());
         }
     };
 }
