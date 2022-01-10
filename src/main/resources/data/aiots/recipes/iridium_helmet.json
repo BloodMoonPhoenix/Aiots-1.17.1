@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "aiots:iridium_ingot"
+    }
+  },
+  "result": {
+    "item": "aiots:iridium_helmet"
+  }
+}
